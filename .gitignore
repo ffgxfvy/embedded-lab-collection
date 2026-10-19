@@ -1,0 +1,38 @@
+# ---- Keil / MDK / C51 ----
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.o  *.obj  *.crf  *.d  *.axf  *.hex  *.lst  *.map  *.m51  *.lnp  *.plg  *.bak  *.scvd
+*.uvguix.*
+*.uvopt  *.uvoptx  *.uvgui.*
+
+# ---- STM32CubeIDE ----
+Debug/
+Release/
+.metadata/
+.settings/
+*.launch
+
+# ---- 第三方库（不公开）----
+Library/
+Start/
+STM32F10x_FWLib/
+Drivers/
+Core/Startup/
+Drivers/CMSIS/
+
+# ---- 压缩包 / 文档 ----
+*.zip
+*.rar
+*.7z
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.xlsx
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
